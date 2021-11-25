@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/drawable/splas_screen.xml" value="0.1" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/drawable/splash_screen.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/acceso.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/activity_contacto.xml" value="0.3546875" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/activity_covid.xml" value="0.340625" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/activity_cursos.xml" value="0.3546875" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/activity_menu.xml" value="0.31756756756756754" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/activity_splash_screen.xml" value="0.3843115124153499" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/bachiller.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/content_main.xml" value="0.3546875" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/content_splash_screen.xml" value="0.3546875" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/eso.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/fp.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/fragment_first.xml" value="0.3546875" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/fragment_first2.xml" value="0.3546875" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/fragment_second.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/jonma/AndroidStudioProjects/AAapp/app/src/main/res/layout/splash_screen.xml" value="0.30120481927710846" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

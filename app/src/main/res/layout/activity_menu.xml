@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondobr"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".menu">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="80dp">
+
+    </Space>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="398dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        app:srcCompat="@drawable/ataulfologo" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="65dp">
+
+    </Space>
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="serif"
+        android:text="@string/menu"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="italic" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="90dp">
+
+    </Space>
+
+
+    <Button
+        android:id="@+id/enseñanza"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_primary"
+        android:onClick="cursos"
+        android:text="@string/enseñanza"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp">
+
+    </Space>
+
+
+    <Button
+        android:id="@+id/planes"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_primary"
+        android:onClick="planes"
+        android:text="@string/planes"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp">
+
+    </Space>
+
+
+    <Button
+        android:id="@+id/Contacto"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_primary"
+        android:onClick="contacto"
+        android:text="@string/Contacto"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="30dp">
+
+    </Space>
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:background="@color/design_default_color_on_primary"
+        android:onClick="atras"
+        android:text="@string/atras"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>

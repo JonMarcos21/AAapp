@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AAapp</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_planes">Planes</string>
+    <string name="Bienvenida">Bienvenido a la aplicación del Instituo Ataulfo Argenta</string>
+    <string name="acceso_button">Acceso</string>
+    <string name="menu">Elige una opción:</string>
+    <string name="enseñanza">Enseñanza</string>
+    <string name="planes">Planes y proyecto</string>
+    <string name="Contacto">Contacto</string>
+    <string name="atras">Atras</string>
+    <string name="first_fragment_label">PrimerFragmento</string>
+    <string name="second_fragment_label">SegundoFragmento</string>
+    <string name="next" translatable="false">Siguiente</string>
+    <string name="previous" translatable="false">Previo</string>
+    <string name="hello_first_fragment" translatable="false">Hola primer fragmento</string>
+</resources>

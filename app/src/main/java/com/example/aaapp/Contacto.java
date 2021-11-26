@@ -16,8 +16,16 @@ public class Contacto extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacto);
     }
-    public void urlF (View view){
+    public void urlP (View view){
+        Intent intentNavegador = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.pinterest.es/iesataulfo/"));
+        startActivity(intentNavegador);
+    }
+    public void urlf (View view){
         Intent intentNavegador = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/iesataulfo.argenta"));
+        startActivity(intentNavegador);
+    }
+    public void urlt (View view){
+        Intent intentNavegador = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/IESAtaulfoArgen"));
         startActivity(intentNavegador);
     }
 }

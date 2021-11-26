@@ -9,17 +9,118 @@
 
     <ImageView
         android:id="@+id/pinterest"
-        android:layout_width="334dp"
-        android:layout_height="421dp"
+        android:layout_width="58dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/redes"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="266dp"
+        android:contentDescription="pinterest"
+        android:onClick="urlP"
+        app:srcCompat="@drawable/pinterest" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="258dp"
+        android:layout_height="98dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="198dp"
-        android:contentDescription="pinterest"
-        android:onClick="urlF"
-        app:srcCompat="@drawable/pinterest" />
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="74dp"
+        app:srcCompat="@drawable/ataulfologo" />
+
+    <TextView
+        android:id="@+id/Con"
+        android:layout_width="189dp"
+        android:layout_height="74dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="110dp"
+        android:fontFamily="serif"
+        android:text="@string/Contacto"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="84dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/redes"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="327dp"
+        android:contentDescription="facebook"
+        android:onClick="urlf"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_below="@+id/redes"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="193dp"
+        android:contentDescription="twitter"
+        android:onClick="urlt"
+        app:srcCompat="@drawable/twitterlogo" />
+
+    <TextView
+        android:id="@+id/direccion"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Con"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="182dp"
+        android:fontFamily="serif"
+        android:text="@string/direccion"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/direccion_centro"
+        android:layout_width="168dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/direccion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="225dp"
+        android:textColor="@color/white"
+        android:text="IES Ataúlfo Argenta Paseo Menéndez Pelayo 4 39700, Castro Urdiales"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/redes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/direccion_centro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="133dp"
+        android:fontFamily="serif"
+        android:text="@string/redes"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
 </RelativeLayout>

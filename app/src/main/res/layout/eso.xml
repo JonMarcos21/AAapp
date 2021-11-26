@@ -7,4 +7,96 @@
     android:background="@drawable/fondobr"
     tools:context=".ESO">
 
+    <Button
+        android:id="@+id/primero"
+        android:layout_width="148dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="214dp"
+        android:background="#B60F03"
+        android:backgroundTintMode="src_over"
+        android:bufferType="normal"
+        android:capitalize="words"
+        android:onClick="urlPri"
+        android:rotationX="-4"
+        android:text="1 ESO"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="319dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="35dp"
+        android:textStyle="bold"
+        app:srcCompat="@drawable/ataulfologo" />
+
+    <Button
+        android:id="@+id/segundo"
+        android:layout_width="152dp"
+        android:layout_height="104dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignStart="@+id/primero"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="56dp"
+        android:background="#B60F03"
+        android:onClick="urlseg"
+        android:text="2 ESO"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tercero"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/primero"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="214dp"
+        android:background="@color/white"
+        android:onClick="urlter"
+        android:text="3 ESO"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cuarto"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_below="@+id/segundo"
+        android:layout_alignStart="@+id/tercero"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="29dp"
+        android:background="@color/white"
+        android:onClick="urlcuar"
+        android:text="4 ESO"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tercero"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="294dp"
+        android:background="@color/white"
+        android:onClick="atras"
+        android:text="@string/atras"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
 </RelativeLayout>

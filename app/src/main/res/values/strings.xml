@@ -20,4 +20,5 @@
     <string name="atras">back</string>
     <string name="direccion">Center address:</string>
     <string name="redes">social networks and phone:</string>
+    <string name="title_activity_maps">Maps</string>
 </resources>

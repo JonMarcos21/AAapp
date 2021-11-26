@@ -28,4 +28,12 @@ public class Contacto extends AppCompatActivity {
         Intent intentNavegador = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/IESAtaulfoArgen"));
         startActivity(intentNavegador);
     }
+    public void maps(View view){
+
+        Intent map = new Intent(this, Maps.class);
+        startActivity(map);
+        finish();
+
+    }
+
 }

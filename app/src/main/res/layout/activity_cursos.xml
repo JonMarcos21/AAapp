@@ -104,4 +104,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/FP" />
 
+    <ImageView
+        android:id="@+id/informacion"
+        android:layout_width="96dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="infor"
+        android:onClick="toast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FP"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

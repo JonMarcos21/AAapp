@@ -19,6 +19,7 @@
     <string name="Contacto">Contact</string>
     <string name="atras">back</string>
     <string name="direccion">Center address:</string>
-    <string name="redes">social networks and phone:</string>
+    <string name="redes">social networks ,phone: and location</string>
     <string name="title_activity_maps">Maps</string>
+    <string name="cocina">kitchen and restoration</string>
 </resources>

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class menu extends AppCompatActivity {
 
@@ -13,6 +14,7 @@ public class menu extends AppCompatActivity {
     Button contacto;
     Button planes;
     Button atras;
+    Button toast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,11 @@ public class menu extends AppCompatActivity {
         Intent con = new Intent(this, Contacto.class);
         startActivity(con);
         finish();
+
+    }
+    public void toast(View view){
+
+        Toast.makeText(menu.this,"Elija una opcion",Toast.LENGTH_SHORT).show();
 
     }
 

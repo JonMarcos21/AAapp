@@ -13,5 +13,6 @@
     <string name="first_fragment_label">PrimerFragmento</string>
     <string name="second_fragment_label">SegundoFragmento</string>
     <string name="direccion">Direccion del centro:</string>
-    <string name="redes">redes sociales y teléfono:</string>
+    <string name="redes">redes sociales , teléfono y ubicacion</string>
+    <string name="title_activity_maps">mapa</string>
 </resources>

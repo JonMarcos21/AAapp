@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.net.Uri;
 import android.view.View;
+import android.widget.Toast;
 
 public class ESO extends AppCompatActivity {
 
@@ -47,6 +48,11 @@ public class ESO extends AppCompatActivity {
         Intent anterior = new Intent(this, Cursos.class);
         startActivity(anterior);
         finish();
+
+    }
+    public void toast(View view){
+
+        Toast.makeText(ESO.this,"Pulsa en un curso",Toast.LENGTH_SHORT).show();
 
     }
 

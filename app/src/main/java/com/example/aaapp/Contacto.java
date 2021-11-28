@@ -1,7 +1,10 @@
 package com.example.aaapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.content.Intent;
 import android.net.Uri;
@@ -15,6 +18,7 @@ public class Contacto extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacto);
+
     }
     public void urlP (View view){
         Intent intentNavegador = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.pinterest.es/iesataulfo/"));
@@ -33,6 +37,14 @@ public class Contacto extends AppCompatActivity {
         Intent map = new Intent(this, Maps.class);
         startActivity(map);
         finish();
+
+    }
+    public void telefono(View view){
+
+        Intent tel = new Intent(Intent.ACTION_DIAL,Uri.parse("942860637"));
+        startActivity(tel);
+        finish();
+
 
     }
 

@@ -1,9 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondobr"
     tools:context=".FP">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="110dp"
+        app:srcCompat="@drawable/ataulfologo" />
+
+    <Button
+        android:id="@+id/Smr"
+        android:layout_width="126dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="227dp"
+        android:background="#AF0909"
+        android:onClick="urlsmr"
+        android:text="SMR"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cocina"
+        android:layout_width="126dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="67dp"
+        android:background="#AF0909"
+        android:onClick="urlcoci"
+        android:text="@string/cocina"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dam"
+        android:layout_width="126dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/Smr"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="227dp"
+        android:background="@color/white"
+        android:onClick="urldam"
+        android:text="DAM"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/daw"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_below="@+id/cocina"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="226dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="63dp"
+        android:background="@color/white"
+        android:onClick="urldaw"
+        android:text="DAW"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dam"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="306dp"
+        android:background="@color/white"
+        android:onClick="atras"
+        android:text="@string/atras"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+</RelativeLayout>

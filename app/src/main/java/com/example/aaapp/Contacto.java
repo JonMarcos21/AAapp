@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.content.Intent;
 import android.net.Uri;
 import android.view.View;
+import android.widget.Toast;
 
 public class Contacto extends AppCompatActivity {
 
@@ -41,9 +43,16 @@ public class Contacto extends AppCompatActivity {
     }
     public void telefono(View view){
 
-        Intent tel = new Intent(Intent.ACTION_DIAL,Uri.parse("942860637"));
-        startActivity(tel);
-        finish();
+        Context context = getApplicationContext();
+        CharSequence text = "Accediendo a marcador";
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+
+        Intent callIntent = new Intent(Intent.ACTION_DIAL);
+        callIntent.setData(Uri.parse("tel: 942860637"));
+        startActivity(callIntent);
 
 
     }

@@ -94,7 +94,7 @@
 
     <Space
         android:layout_width="0dp"
-        android:layout_height="30dp">
+        android:layout_height="25dp">
 
     </Space>
 
@@ -111,7 +111,7 @@
     <ImageView
         android:id="@+id/informacion"
         android:layout_width="match_parent"
-        android:layout_height="42dp"
+        android:layout_height="48dp"
         android:contentDescription="infor"
         android:onClick="toast"
         app:srcCompat="@android:drawable/ic_menu_info_details" />

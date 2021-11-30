@@ -57,7 +57,7 @@ public class menu extends AppCompatActivity {
 
     public void planes(View view){
 
-        Intent plan = new Intent(this, Planes.class);
+        Intent plan = new Intent(this, PlanesyPro.class);
         startActivity(plan);
         finish();
 

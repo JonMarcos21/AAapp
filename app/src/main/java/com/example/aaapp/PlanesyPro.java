@@ -1,32 +1,18 @@
 package com.example.aaapp;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-
-import com.google.android.material.snackbar.Snackbar;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.view.View;
 
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-
-
-public class Planes extends AppCompatActivity {
-
-
+public class PlanesyPro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
+        setContentView(R.layout.activity_planesy_pro);
     }
     public void atras(View view){
 
@@ -44,5 +30,4 @@ public class Planes extends AppCompatActivity {
         Intent intentNavegador = new Intent(Intent.ACTION_VIEW, Uri.parse("http://iesataulfoargenta.es/wp/category/autonomia-de-centros/planes-y-proyectos/bilingue/"));
         startActivity(intentNavegador);
     }
-
 }

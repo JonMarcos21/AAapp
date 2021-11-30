@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondobr"
-    tools:context=".Planes">
+    tools:context=".PlanesyPro">
 
 
     <ImageView
@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/ataulfologo" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/bilingue"
         android:layout_width="171dp"
         android:layout_height="151dp"
         android:layout_alignParentTop="true"
@@ -33,10 +33,10 @@
         app:srcCompat="@drawable/bilingue" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/erasmus"
         android:layout_width="192dp"
         android:layout_height="157dp"
-        android:layout_below="@+id/imageView10"
+        android:layout_below="@+id/bilingue"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="69dp"
         android:layout_marginEnd="100dp"
@@ -48,7 +48,7 @@
         android:id="@+id/atras"
         android:layout_width="114dp"
         android:layout_height="58dp"
-        android:layout_below="@+id/imageView11"
+        android:layout_below="@+id/erasmus"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="23dp"
@@ -59,6 +59,5 @@
         android:text="@string/atras"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="25dp"
         android:textStyle="bold" />
 </RelativeLayout>

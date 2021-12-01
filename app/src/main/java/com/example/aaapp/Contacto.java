@@ -56,5 +56,12 @@ public class Contacto extends AppCompatActivity {
 
 
     }
+    public void atras(View view){
+
+        Intent anterior = new Intent(this, menu.class);
+        startActivity(anterior);
+        finish();
+
+    }
 
 }
